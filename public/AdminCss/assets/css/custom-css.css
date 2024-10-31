@@ -1,0 +1,118 @@
+.text-center{
+    text-align: center;
+    text-decoration: none;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.student-record {
+    float: left;
+    border: 1px solid grey;
+    margin: 2px;
+    padding: 4px;
+    width: 210px;
+    text-align: center;
+}
+
+#studentRecords {
+    margin: 10px;
+}
+
+.class {
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    height: 110px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(244, 242, 242);
+}
+
+.subjectname {
+    width: 180px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class .subjectname span {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.class:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+.class:hover .delete-class-warning {
+    display: block !important;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+}
+
+.no-decoration {
+    text-decoration: none !important;
+}
+
+.modal-content {
+    text-align: center;
+    padding: 18px;
+}
+
+.modal-content li {
+    margin: 5px;
+}
+
+.modal-content input,
+.modal-content select {
+    margin: 20px;
+    width: 92%;
+}
+
+.delete-class-warning {
+    display: none !important;
+}
+
+.classes {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.classes .list p {
+    border: 1px solid lightgrey;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px !important;
+    font-weight: 100 !important;
+}
+
+dd {
+    margin: 5px;
+}
+
+:root {
+    --color-one: #e6e6ff;
+    --color-two: #1a1aff;
+    --color-three: #b3b3ff;
+}
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-color: var(--color-one);
+    font-size: 0.95em;
+    color: #222;
+} */
